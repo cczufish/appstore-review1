@@ -181,9 +181,18 @@ The second is when the user share the article to his/her socail network, the inf
 Reasons
 
 17.2: Apps that require users to share personal information, such as email address and date of birth, in order to function will be rejected
+
 Thank you for your response. However, sharing and commenting features are not significant enough. Please include your own authentication in the app. We look forward to your resubmission.
 
 至此又汗颜了。。。。。继续斗智斗勇进行中
+
+Thank you for your patience, but we still not too clear about the issue.
+The login method of the third party(such as Sina, QQ) is just an assistant way which would make our app be convenient for the users who already have Sina and QQ account and don’t want to regist more account in other platform, such as our app.
+But we still have our own account authentication in our app.Users can use their mobile phone numbers to sign in our app.The reason that mobile phone number is used here is that we can prevent the problem of one person having too much account in our app.
+Anyhow, the third party and the mobile phone number(or email) is a common way of app authentication in china. In fact, there are a lot of apps in AppStore are like that.
+So, we are confused and we would be very thank you if you are willing to point out exactly what feature we should add or remove. Thank you.
+
+
 
 另外一个app
 
