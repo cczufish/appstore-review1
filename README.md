@@ -1,6 +1,7 @@
 appstore-review1
 ================
-10月23
+
+10月23号
 
 Reasons
 
@@ -34,9 +35,9 @@ If you have difficulty reproducing a reported issue, please try testing the work
 两个问题，一个是说在ipad和iphone5s，ios8.0.2上审核的时候发现登陆点击qq登陆没反，测试后发现确实是这样，原因就是腾讯qq不能直接调用客户端登录，在用户木有安装客户端的时候，当时我就给了个提示（说木有安装客户端，用其他方式登录），然后就有了之后的一次被拒（汗颜）。
 另一个说是我们的app包含色情信息，苹果附了两张截图。这种情况可以通过回复跟苹果工程师沟通解决，我就说色情内容已经从后台撤销了。。。。另外也可以从app评级上解决，年龄12+就可以。
 
-
-               
+            
 11月3号
+
 Reasons
 17.2: Apps that require users to share personal information, such as email address and date of birth, in order to function will be rejected
 
@@ -64,6 +65,7 @@ screenshot_0 1
 应该是说的注册协议那个是不是要弄一个复选框啊。。。。
 
 11月17
+
 当时我是回复了一次，然后苹果又回复了一次。。
 
 Reasons
@@ -115,7 +117,7 @@ Please reply to this message in the Resolution Center and make any necessary cha
 苹果说回复就可以：Please reply to this message in the Resolution Center and make any necessary changes to the app so we can proceed with your review.
 我就撤掉敏感内容，然后回复苹果第一个敏感内容我们已经从后台撤掉，另外一个，在用户评论的时候会用到qq登陆，sina登陆。需要用户发表评论的时候的昵称，以及分享的时候用到了
 
-12月3���号
+12月3号
 
 Reasons
 
@@ -200,6 +202,7 @@ It is necessary that you put all of the following precautions in place:
 - Developer must act on objectionable content reports within 24 hours by removing the content and ejecting the user who provided the offending content
 - Developer needs a method for ejecting users who violate the terms of the EULA
 - 
+
 这个个人理解就是对于完全是UGC（用户产生内容）类型的app，需要一个举报的功能，就像游记，微博，完全由用户产生内容，而新闻app就不需要吧，加了个举报功能继续提交审核。。。。。
 
 
