@@ -214,6 +214,27 @@ It is necessary that you put all of the following precautions in place:
 
 这个个人理解就是对于完全是UGC（用户产生内容）类型的app，需要一个举报的功能，就像游记，微博，完全由用户产生内容，而新闻app就不需要吧，加了个举报功能继续提交审核。。。。。
 
+至此四个app都上线了。
+
+苹果appstore审核团队简直无语了，app新版本审核的时候，因为里面有屌丝两个字被拒绝。。。。。。
+
+1月14
+
+Reasons
+
+3.6: Apps with App icons, screenshots, and previews that do not adhere to the 4+ age rating will be rejected 
+----- 3.6 -----
+
+Your Application Description, app icon, screenshots, or previews includes content that is not appropriate for all age groups, as required by the App Store Review Guidelines.
+
+Since the metadata is visible to all users on the App Store, this content must meet the 4+ rating requirement, even when purchasing is restricted by a higher rating.
+
+Specifically, it would be appropriate to remove or revise 屌丝 in the screenshots.
+
+We’ve attached screenshot(s) for your reference.
+
+
+http://weibo.com/p/1001603798850686053616
 
 
 
