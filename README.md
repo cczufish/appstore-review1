@@ -428,3 +428,48 @@ To resolve this issue, please ensure that tapping the update button takes the us
 Since your App Store Connect status is Rejected, a new binary will be required.
 
 用了 。。。。 fir.im
+
+
+2019年3月7日 录制ipv6的视频发过去 
+
+IPv6 and App Store Requirements
+
+Compatibility with IPv6 DNS64/NAT64 networks will be an App Store submission requirement, so it is essential that apps ensure compatibility. The good news is that the majority of apps are already IPv6-compatible. For these apps, it’s still important to regularly test your app to watch for regressions. Apps that aren’t IPv6-compatible may encounter problems when operating on DNS64/NAT64 networks. Fortunately, it’s usually fairly simple to resolve these issues, as discussed throughout this chapter.
+
+Common Barriers to Supporting IPv6
+
+Several situations can prevent an app from supporting IPv6. The sections that follow describe how to resolve these problems.
+
+IP address literals embedded in protocols. Many communications protocols, such as Session Initiation Protocol (SIP), File Transfer Protocol (FTP), WebSockets, and Peer-to-Peer Protocol (P2PP), include IP address literals in protocol messages. For example, the FTP parameter commands DATA PORT and PASSIVE exchange information that includes IP address literals. Similarly, IP address literals may appear in the values of SIP header fields, such as To, From, Contact, Record-Route, and Via. See Use High-Level Networking Frameworks and Don’t Use IP Address Literals.
+IP address literals embedded in configuration files. Configuration files often include IP address literals. See Don’t Use IP Address Literals.
+Network preflighting. Many apps attempt to proactively check for an Internet connection or an active Wi-Fi connection by passing IP address literals to network reachability APIs. See Connect Without Preflight.
+Using low-level networking APIs. Some apps work directly with sockets and other raw network APIs such as gethostbyname, gethostbyname2, and inet_aton. These APIs are prone to misuse or they only support IPv4—for example, resolving hostnames for the AF_INET address family, rather than the AF_UNSPEC address family. See Use High-Level Networking Frameworks.
+Using small address family storage containers. Some apps and networking libraries use address storage containers—such as uint32_t, in_addr, and sockaddr_in—that are 32 bits or smaller. See Use Appropriately Sized Storage Containers.
+
+
+
+
+2018年7月3日 下午11:16
+发件人 Apple
+* 		2. 5 Performance: Software Requirements
+* 		4. Design: Preamble
+Guideline 2.5.2 - Performance - Software Requirements
+  During review, your app installed or launched executable code, which is not permitted on the App Store. Specifically, your app uses the itms-services URL scheme to install an app.  Please note that while educational apps designed to teach, develop, or allow students to test executable code may, in limited circumstances, download code, such code may not be used for other purposes and such apps must make the source code completely viewable and editable by the user.  The next submission of this app may require a longer review time, and this app will not be eligible for an expedited review until this issue is resolved.  Next Steps  - Review the Software Requirements section of the App Store Review Guidelines. - Ensure your app is compliant with all sections of the App Store Review Guidelines and the Terms & Conditions of the Apple Developer Program.  - Once your app is fully compliant, resubmit your app for review.  Submitting apps designed to mislead or harm customers or evade the review process may result in the termination of your Apple Developer Program account. Review the Terms & Conditions of the Apple Developer Program to learn more about our policies regarding termination.  If you believe your app is compliant with the App Store Review Guidelines, you may submit an appeal. Alternatively, you may provide additional details about your app by replying directly to this message. 
+Guideline 4.0 - Design
+  Your app includes an update button or alerts the user to update the app, but the update button or alert does not link directly to the app’s page on the App Store.  Next Steps  To resolve this issue, please ensure that tapping the update button takes the user directly to the app’s page on the App Store to update the app.    Since your App Store Connect status is Rejected, a new binary will be required.
+  
+  加举报 ，审核功能
+  
+  
+Guideline 2.1 - Performance - App Completeness
+  We discovered one or more bugs in your app when reviewed on iPad running iOS 12 on Wi-Fi.  Specifically, the playback (回放) button is greyed out and not accessible to replay previous course video.  Next Steps  To resolve this issue, please run your app on a device to identify any issues, then revise and resubmit your app for review.  If we misunderstood the intended behavior of your app, please reply to this message in Resolution Center to provide information on how these features were intended to work.  For new apps, uninstall all previous versions of your app from a device, then install and follow the steps to reproduce the issue. For updates, install the new version as an update to the previous version, then follow the steps to reproduce the issue.  Resources  For information about testing your app and preparing it for review, please see Technical Note TN2431: App Testing Guide.   For a networking overview, please review About Networking. For a more specific overview of App Review’s IPv6 requirements, please review the IPv6 and App Review discussion on the Apple Developer Forum. 
+Guideline 2.3 - Performance - Accurate Metadata
+  We were unable to locate some of the features described in your metadata.   Specifically, all contents in your app are not available to access until the set future dates.  Next Steps  If these features are located in your app, please reply to this message in Resolution Center to provide information on how to locate them.   Alternatively, please revise your app to ensure that these features are fully implemented or revise your app description, release notes, and screenshots to remove all references to the features.  Please see attached screenshots for details.
+
+
+Guideline 2.2 - Performance - Beta Testing
+
+
+Your app appears to be a pre-release, test, or trial version with a limited feature set. Apps that are created for demonstration or trial purposes are not appropriate for the App Store.
+
+
