@@ -1,6 +1,28 @@
 appstore-review1
 ================
 
+
+2021年12月22日
+
+
+* 
+* 		2021年12月22日 上午5:47 发件人 Apple
+    * 		Other App Store Review Guideline Issue
+* 		Hello,
+* 		
+* 		The review of your app is taking longer than expected. Once we have completed our review, we will notify you via Resolution Center.
+* 		
+* 		If you would like to inquire about the status of this review, you may file a request via the Apple Developer Contact Us page.
+* 		
+* 		Best regards,
+* 		
+* 		App Store Review
+
+
+
+这个等就可以了 
+
+
 10月23号
 
 Reasons
